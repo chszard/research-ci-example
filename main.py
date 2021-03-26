@@ -1,5 +1,6 @@
 def helloworld(message):
-    return f"hello world: {message}"
+    greeting = f"hello world: {message}"
+    return greeting
 
 
 if __name__ == "__main__":
