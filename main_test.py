@@ -4,8 +4,8 @@ import main
 
 class MainTest(unittest.TestCase):
     def test_helloworld(self):
-        ret = main.helloworld("HS TEST")
-        self.assertEqual(ret, "hello world Ka")
+        result = main.helloworld("HS TEST")
+        self.assertEqual(result, "hello world Ka")
 
 
 if __name__ == "__main__":
